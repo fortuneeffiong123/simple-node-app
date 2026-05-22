@@ -19,5 +19,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Check server file
+      - name: Validate JavaScript syntax
         run: node --check server.js
